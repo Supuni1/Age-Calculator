@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070103"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="3pt"
+        android:background="#070103"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Calculate Your"
+        android:textColor="#FFEB3B"
+
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/test2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:layout_marginTop="30dp"
+        android:background="#070103"
+        android:gravity="center"
+        android:text="AGE"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#E80303"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/buttonBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#6F0B80"
+        android:text="Select Birthday"
+        android:textSize="22sp" />
+
+    <TextView
+
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#212F81"
+        android:gravity="center"
+        android:text="1/1/2020"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+
+        android:id="@+id/textview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:background="#0F7ED6"
+        android:gravity="center"
+        android:text="Selected Date"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/inSeconds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#303543"
+        android:gravity="center"
+        android:text="0000"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/secondsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#070103"
+        android:gravity="center"
+        android:text="In Seconds"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/inMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#303543"
+        android:gravity="center"
+        android:text="0000"
+        android:textColor="@color/white"
+
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="In Minutes"
+        android:textColor="@color/white"
+        android:textColorHighlight="#FF0000"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/inHoursText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#303543"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="0000"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="In Hours"
+        android:textColor="@color/white"
+        android:textColorHighlight="#FF0000"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/inDaysText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#303543"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="0000"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="In Days"
+        android:textColor="#E8E8E8"
+        android:textSize="16sp"
+
+        />
+
+
+</LinearLayout>
